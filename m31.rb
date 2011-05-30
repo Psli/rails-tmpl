@@ -11,9 +11,6 @@ run "curl -L https://github.com/Psli/rails-tmpl/raw/master/Gemfile31 > Gemfile"
 # bundle install
 run "bundle install"
 
-gsub_file 'config/application.rb', /(config.generators.test_framework = false)/,
-                                   "config.generators.test_framework = :rspec"
-
 # generate rspec
 generate "rspec:install"
 

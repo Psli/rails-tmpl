@@ -69,6 +69,8 @@ gem 'nokogiri'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
-  gem "rspec", "~> 2.6.0"
-  gem "rspec-rails", "~> 2.6.0"
+end
+
+group :test, :development do
+  gem "rspec-rails", "~> 2.6.1"
 end
