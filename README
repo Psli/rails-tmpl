@@ -1,0 +1,6 @@
+# Usage
+    rails new your_project_name -d mysql -Tm https://github.com/Psli/rails-tmpl/raw/master/m31.rb
+
+# License
+
+    The code is licensed under the MIT: http://www.opensource.org/licenses/mit-license.php
