@@ -28,12 +28,10 @@ Thumbs.db
 CODE
 
 # keep tmp and log
-run "touch tmp/.gitkeep"
-run "touch log/.gitkeep"
+# run "touch tmp/.gitkeep"
+# run "touch log/.gitkeep"
 
 # git commit
 git :init
 git :add => '.'
-git :add => 'tmp/.gitkeep -f'
-git :add => 'log/.gitkeep -f'
 git :commit => "-a -m 'init commit'"
