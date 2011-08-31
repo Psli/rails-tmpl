@@ -68,6 +68,10 @@ gem 'jquery-rails'
 # gem "dalli"
 # gem "memcache-client", :require => "memcache"
 
+# Redis client
+# gem "hiredis", "~> 0.3.2"
+# gem "redis", "~> 2.2.2", :require => ["redis/connection/hiredis", "redis"]
+
 # Background Processing
 # gem 'delayed_job'
 # gem 'resque'
