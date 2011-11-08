@@ -6,7 +6,7 @@ run "cp config/database.yml config/database.yml.example"
 
 # install gems
 run "rm Gemfile"
-run "curl -L https://github.com/Psli/rails-tmpl/raw/master/Gemfile31 > Gemfile"
+run "curl -L https://raw.github.com/Psli/rails-tmpl/master/Gemfile31 > Gemfile"
 
 # bundle install
 run "bundle install"
