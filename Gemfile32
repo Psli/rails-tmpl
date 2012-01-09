@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.0.rc1'
+gem 'rails', '3.2.0.rc2'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -11,8 +11,8 @@ gem 'mysql2'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.2'
-  gem 'coffee-rails', '~> 3.2.0'
+  gem 'sass-rails',   '~> 3.2.3'
+  gem 'coffee-rails', '~> 3.2.1'
 
   gem 'uglifier', '>= 1.0.3'
 end
@@ -20,31 +20,22 @@ end
 gem 'jquery-rails'
 
 group :test, :development do
-  gem "rspec-rails", "~> 2.8.0.rc2"
-  gem "rspec-cells"
+  gem "rspec-rails", "~> 2.8.1"
+# gem "rspec-cells"
 end
 
-group :production do
-  gem 'unicorn'
-  gem 'foreman'
-  gem 'therubyracer'
-end
+# group :production do
+#   gem 'unicorn'
+#   gem 'foreman'
+#   gem 'therubyracer'
+# end
 
-gem 'yajl-ruby', :require => 'yajl'
-gem 'nokogiri'
+# gem 'yajl-ruby', :require => 'yajl'
+# gem 'nokogiri'
 
-gem 'rails-i18n'
+# gem 'cells'
 
-gem 'cells'
-
-gem 'devise', '~> 2.0.0.rc'
-
-gem 'aasm'
-
-gem 'kaminari'
-
-# form
-gem 'nested_form',  :git => 'https://github.com/fxposter/nested_form.git' #'https://github.com/ryanb/nested_form.git'
+# gem 'rails-i18n'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
