@@ -34,4 +34,4 @@ CODE
 # git commit
 git :init
 git :add => '.'
-git :commit => "-a -m 'init commit'"
+git :commit => "-a -m 'first init'"
