@@ -1,5 +1,5 @@
 # remove files
-run "rm README"
+run "rm README.rdoc"
 run "rm public/index.html"
 run "rm app/assets/images/rails.png"
 run "cp config/database.yml config/database.yml.example"
